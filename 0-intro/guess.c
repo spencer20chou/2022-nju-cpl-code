@@ -49,7 +49,7 @@ int main() {
      */
         num_of_tries--;
 
-        if(num_of_tries == 0 && guess != secret) {
+        if (num_of_tries == 0 && guess != secret) {
             printf("Sorry, you lose!\n");
         }
     }

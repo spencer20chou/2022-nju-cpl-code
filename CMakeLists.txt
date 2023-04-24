@@ -5,3 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_subdirectory(0-intro)
 add_subdirectory(1-type-io)
+add_subdirectory(2-if-for-array)
+add_subdirectory(3-for-a-while)
