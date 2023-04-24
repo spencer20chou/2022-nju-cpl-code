@@ -1,0 +1,3 @@
+"D:\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\min-of-three.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\min-of-three.dir/objects.a @CMakeFiles\min-of-three.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\min-of-three.dir/objects.a -Wl,--no-whole-archive -o min-of-three.exe -Wl,--out-implib,libmin-of-three.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\min-of-three.dir\linklibs.rsp

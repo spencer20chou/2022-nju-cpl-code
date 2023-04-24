@@ -1,0 +1,3 @@
+"D:\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\admin-scanf.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\admin-scanf.dir/objects.a @CMakeFiles\admin-scanf.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\admin-scanf.dir/objects.a -Wl,--no-whole-archive -o admin-scanf.exe -Wl,--out-implib,libadmin-scanf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\admin-scanf.dir\linklibs.rsp
