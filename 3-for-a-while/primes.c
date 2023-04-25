@@ -10,9 +10,10 @@ int main() {
 
     for (int number = 2; number <= max; number++) {
         int is_prime = 1;
-        for (int i = 2; i < number; ++i) {
+        for (int i = 2; i * i <= number; ++i) {
             if (number % i == 0) {
                 is_prime = 0;
+                break;
             }
         }
 
