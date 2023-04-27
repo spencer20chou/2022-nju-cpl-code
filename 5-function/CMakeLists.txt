@@ -1,0 +1,6 @@
+add_executable(leap-year-fun leap-year-fun.c)
+add_executable(primes-fun primes-fun.c)
+add_executable(stars-fun stars-fun.c)
+add_executable(binary-search-fun binary-search-fun.c)
+add_executable(palindrome-fun palindrome-fun.c)
+add_executable(selection-sort-fun selection-sort-fun.c)

@@ -29,7 +29,7 @@ int main() {
     if (index == -1) {
         printf("Not found!\n");
     } else {
-        printf("The index of %d is %d.\n", index, key);
+        printf("The index of %d is %d.\n", key, index);
     }
 
     return 0;
