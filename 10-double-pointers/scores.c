@@ -14,7 +14,7 @@ int main() {
     printf("Please input the number of students:\n");
     scanf("%d", &rows);
 
-    int (*scores)[COLS] = malloc(rows * COLS * sizeof *scores);
+    int (*scores)[COLS] = malloc(rows * COLS * sizeof **scores);
     if (scores == NULL) {
         return 0;
     }
